@@ -1394,12 +1394,12 @@ textarea {
 }
 
 a {
-	color: #34b8c0;
+	color: #009FFD;
 	text-decoration: none;
 }
 
 a:hover, a:focus {
-	color: #248186;
+	color: #009FFD;
 	text-decoration: underline;
 }
 
@@ -3226,7 +3226,7 @@ fieldset[disabled] .btn-danger.focus {
 }
 
 .btn-link {
-	color: #34b8c0;
+	color: #0AAEF5;
 	font-weight: normal;
 	border-radius: 0;
 }
@@ -4624,7 +4624,7 @@ tbody.collapse.in {
 
 .nav > li {
 	position: relative;
-	display: block;
+	display: block; 
 }
 
 .nav > li > a {
@@ -5254,7 +5254,7 @@ tbody.collapse.in {
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
 		color: #fff;
-		background-color: #34b8c0;
+		background-color: #0AAEF5;
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
 		color: #bdbdbd;
@@ -5691,7 +5691,7 @@ a.label:hover, a.label:focus {
 
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-	color: #34b8c0;
+	color: #0AAEF5;
 	background-color: #fff;
 }
 
@@ -10098,6 +10098,9 @@ html.lt-ie-10 .range > [class*="cell-lg-preffix-"] {
 @media (min-width: 480px) {
 	.hr-xs-right-0 {
 		margin-right: 0;
+	}
+	.rd-navbar-minimal{
+		box-shadow: 0px
 	}
 }
 
@@ -24581,8 +24584,8 @@ a.thumbnail:hover {
 }
 
 .thumbnail-josip .thumbnail-desc {
-	background: #34b8c0;
-	padding: 33px 10px;
+	background: #009FFD;
+	padding: 25px 10px;
 	transition: .3s ease;
 }
 
@@ -25464,7 +25467,7 @@ a.thumbnail:hover {
 }
 
 .navbar .navbar-toggle {
-	margin-top: 9px;0AAEF5
+	margin-top: 9px;
 	margin-bottom: 9px;
 }
 
@@ -34979,10 +34982,11 @@ fieldset[disabled] .bg-primary .btn-java {
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-wide.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-nav li a, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li a {
 	padding: 6px 30px 6px 15px;
+	font-size: 19px;
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-wide.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-nav li a, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion, .rd-navbar-wide.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-nav li .responsive-tabs .resp-accordion, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion {
-	color: #34b8c0;
+	color: #0AAEF5;
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li .rd-navbar-submenu-toggle, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .rd-navbar-submenu-toggle, .rd-navbar-wide.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .rd-navbar-submenu-toggle, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .rd-navbar-submenu-toggle, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-nav li .rd-navbar-submenu-toggle, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .rd-navbar-submenu-toggle, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .rd-navbar-submenu-toggle, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .rd-navbar-submenu-toggle {
@@ -38834,6 +38838,7 @@ fieldset[disabled] .bg-primary .btn-java {
 	overflow: hidden;
 	/* Fix of Webkit flickering */
 	z-index: 1;
+
 }
 
 .swiper-container h2 {
@@ -38843,6 +38848,9 @@ fieldset[disabled] .bg-primary .btn-java {
 @media (min-width: 992px) {
 	.swiper-container h2 {
 		font-size: 48px;
+	}
+	.swiper-container{
+		height: 400px !important;
 	}
 }
 
@@ -38854,6 +38862,20 @@ fieldset[disabled] .bg-primary .btn-java {
 
 .swiper-container h5 + * {
 	margin-top: 1px;
+}
+@media (min-width: 600px) {
+	.doctor-mini{
+		display: none;
+	}					
+}
+
+@media (max-width: 600px) {
+	.doctor-mini{
+		display: block;
+	}	
+	.doctor-max{
+		display: none;
+	}				
 }
 
 .swiper-container .autror-name-pos {
